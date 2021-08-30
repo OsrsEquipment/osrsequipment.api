@@ -10,4 +10,7 @@
       ]
     }
   ]
+  "rewrites": [
+    { "source": "/:match*", "destination": "/api/:match*" }
+  ]
 }
